@@ -1,9 +1,10 @@
 # Flutter 学习、总结
 经过一个多月的Flutter项目开发和上线,现在总结一下Flutter的学习流程。仅供自己学习，如有什么问题，欢迎指出！Flutter学习资料([Flutter中文网](https://flutterchina.club),[Flutter官网](https://flutterchina.club))
 
+## 思维导图
+![简略版](picture/xmind.png)
 
 ## flutter 架构
-
 - [TodoMVC for Flutter ](https://github.com/brianegan/flutter_architecture_samples)
 
 ## 知识点(概括)
