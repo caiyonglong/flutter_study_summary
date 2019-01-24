@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:flutter_summary/page/AnimationPage.dart';
 
 class HomePage extends StatefulWidget {
   @override
@@ -15,18 +16,10 @@ class HomePageStates extends State<HomePage> {
       appBar: AppBar(
         title: Text("Flutter Study"),
       ),
-      body: Center(
-          child: Container(
-        child: ListView(
-          children: <Widget>[
-            ListTile(
-              leading: const Icon(Icons.insert_emoticon),
-              title: const Text('基础组件'),
-              onTap: () {},
-            ),
-          ],
-        ),
-      )),
+      body: Container(
+        color: Colors.black,
+        child: SpriteAnimationWidget(),
+      ),
       floatingActionButton: FloatingActionButton(
         tooltip: 'Increment',
         child: Icon(Icons.add),
